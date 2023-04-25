@@ -139,6 +139,26 @@ h3{
     justify-content: space-evenly;
     align-items: center;
 }
+
+/* Formulario */
+.formulario{
+    border-radius: 1rem;
+    background-image: linear-gradient(to top, var(--blanco) 0%, var(--gris)100%);
+    width: min(60rem, 100%);
+    margin: 0 auto;
+    padding: 2rem;
+}
+.formulario fieldset{
+    border: none;
+}
+.formulario legend{
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--oscuro);
+    margin-bottom: 1rem;
+}
+
 /* Media Queries */
 @media(min-width: 480px){
     .navegacion-principal {
